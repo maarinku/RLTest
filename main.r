@@ -1,1 +1,3 @@
-print("Test")
+welcome <- "Hello"
+
+welcome
