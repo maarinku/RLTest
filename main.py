@@ -2,9 +2,11 @@ from enemy import *
 from archer import *
 from types import *
 
-print("Choose your player class:")
-print("     [1] Archer")
-choice = int(input("Class: "))
+def attack(point):
+    damage = enemy.attack
+    point = point - damage
+    print(f"{enemy.enemytype} damage is {enemy.attack}")
+    return point
 
-if choice == 1:
-    return Archer
+def attack_enemy(Enemy):
+    damage = 
